@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "Outlining",
+    "description": "",
+    "version": "1.0",
+    "background": {
+        "scripts" :["background.js"],
+        "persistent": false
+    },
+    "permissions": [
+        "tabs", "http://*/*", "https://*/*"
+    ],
+    "browser_action": {
+        "default_icon": "outline-logo.png" 
+    }
+    
+}
